@@ -34,6 +34,6 @@ elements.forEach((element) => {
   })
 })
 
-const refreshDisplayArea => () {
+const refreshDisplayArea = () => {
 renderArea.innerText = calculationHolder.join('')
 }

@@ -98,3 +98,18 @@
   align-items: center;
   justify-content: center;
 }
+
+.num,
+.operator,
+.func,
+.equal {
+  border: solid white 1px;
+}
+
+.num:hover,
+.operator:hover,
+.func:hover,
+.equal:hover {
+  cursor: pointer;
+  border: solid black 1px;
+}
